@@ -1,0 +1,27 @@
+{
+  "name": "mock-api",
+  "version": "1.0.0",
+  "description": "a simple mock api",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node --optimize_for_size --max_old_space_size=2560 server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/unit399/mock-api.git"
+  },
+  "keywords": [
+    "mock",
+    "api"
+  ],
+  "author": "R. Okan Çilingiroğlu",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/unit399/mock-api/issues"
+  },
+  "homepage": "https://github.com/unit399/mock-api#readme",
+  "dependencies": {
+    "json-server": "^0.17.0"
+  }
+}
